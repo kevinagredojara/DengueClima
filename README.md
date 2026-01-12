@@ -132,4 +132,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue primero para discut
 
 ---
 
-**Proyecto desarrollado para el [Data2AI Challenge LATAM](https://data2ai.com)**
+**Proyecto desarrollado para el [Data2AI Challenge LATAM](https://data2aichallenge.org/#hero)**
