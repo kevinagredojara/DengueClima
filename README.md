@@ -10,18 +10,40 @@
 
 ## 📋 Descripción
 
-DengueClima es un sistema de predicción temprana de brotes de dengue que utiliza la correlación entre variables climáticas (precipitación, temperatura, humedad) y la incidencia de casos de dengue.   
+DengueClima es un sistema de predicción temprana de brotes de dengue que utiliza la correlación entre variables climáticas (precipitación, temperatura, humedad) y la incidencia de casos de dengue. 
 
-El proyecto busca proporcionar a las autoridades de salud pública una herramienta que permita anticipar brotes epidémicos con semanas de anticipación, optimizando la asignación de recursos y las campañas de prevención.  
+El proyecto busca proporcionar una herramienta de doble impacto: 
+
+1. **Para autoridades de salud pública**: Anticipar brotes epidémicos con semanas de anticipación, optimizando la asignación de recursos y las campañas de prevención. 
+
+2. **Para la ciudadanía**:  Brindar acceso a información clara y oportuna sobre el nivel de riesgo en su municipio, empoderando a las personas para tomar acciones preventivas en sus hogares y comunidades.
 
 ## 🎯 Problema que Resuelve
 
-El dengue es una enfermedad endémica en regiones tropicales que afecta a millones de personas anualmente.   Actualmente, las autoridades sanitarias reaccionan **después** de detectar aumentos en los casos reportados, perdiendo tiempo valioso para la prevención.   
+El dengue es una enfermedad endémica en regiones tropicales que afecta a millones de personas anualmente.  Actualmente existen dos problemas críticos:
 
-DengueClima permite: 
+**Desde las instituciones:**
+- Las autoridades sanitarias reaccionan **después** de detectar aumentos en los casos reportados, perdiendo tiempo valioso para la prevención. 
+
+**Desde la ciudadanía:**
+- Las personas no tienen acceso a información anticipada sobre el riesgo en su zona.
+- La prevención depende de campañas esporádicas, no de información continua y personalizada.
+
+## 💡 Solución
+
+DengueClima propone un enfoque integral:
+
+### Para Autoridades de Salud Pública
 - **Anticipar** brotes con 4-8 semanas de anticipación
 - **Focalizar** recursos en municipios de alto riesgo
 - **Optimizar** campañas de fumigación y eliminación de criaderos
+- **Monitorear** la efectividad de las intervenciones
+
+### Para la Ciudadanía
+- **Consultar** mapas de riesgo interactivos por municipio
+- **Recibir** alertas tempranas cuando el riesgo aumenta en su zona
+- **Aprender** acciones preventivas específicas según el nivel de riesgo
+- **Participar** activamente en la eliminación de criaderos
 
 ## 🌎 Alcance
 
@@ -42,6 +64,7 @@ DengueClima permite:
 3. **Ingeniería de características**: Variables con retardo temporal (lag), promedios móviles
 4. **Modelado**: Algoritmos de Machine Learning (Random Forest, XGBoost)
 5. **Validación**: Evaluación con datos históricos no vistos por el modelo
+6. **Visualización**: Interfaces accesibles para autoridades y ciudadanía
 
 ## 📁 Estructura del Repositorio
 
@@ -87,18 +110,26 @@ DengueClima/
 | 4 | Validación y ajuste | 📋 Pendiente |
 | 5 | Despliegue y documentación | 📋 Pendiente |
 
+## 🎯 Audiencias Objetivo
+
+| Audiencia | Necesidad | Solución DengueClima |
+|-----------|-----------|----------------------|
+| **Secretarías de Salud** | Anticipar brotes para planificar recursos | Predicciones semanales por municipio con nivel de riesgo |
+| **Ciudadanía** | Saber cuándo protegerse y actuar | Mapas de riesgo públicos y alertas por zona |
+| **Investigadores** | Datos integrados para estudios | Datasets abiertos y metodología documentada |
+
 ## 👥 Equipo
 
 - **Kevin Agredo Jara** - Desarrollador Principal
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT.  Ver el archivo [LICENSE](LICENSE) para más detalles.   
+Este proyecto está bajo la Licencia MIT.  Ver el archivo [LICENSE](LICENSE) para más detalles. 
 
 ## 🤝 Contribuciones
 
-Las contribuciones son bienvenidas.   Por favor, abre un issue primero para discutir los cambios propuestos.  
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios propuestos.
 
 ---
 
-**Proyecto desarrollado para el [Data2AI Challenge LATAM](https://data2ai. com)**
+**Proyecto desarrollado para el [Data2AI Challenge LATAM](https://data2ai.com)**
